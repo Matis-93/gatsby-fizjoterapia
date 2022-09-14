@@ -15,9 +15,9 @@ const CanIHelpUCard = ({ title, points }: Props) => (
       {title}
     </Card.Header>
     <Card.Body>
-      <MDBListGroup flush className="list-group-flush">
-        {points.map(text => (
-          <MDBListGroupItem>
+      <MDBListGroup className="list-group-flush">
+        {points.map((text, index) => (
+          <MDBListGroupItem key={title + "_" + index}>
             {text != "SM" ? text.toLowerCase() : text}
           </MDBListGroupItem>
         ))}

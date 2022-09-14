@@ -1,14 +1,14 @@
-import React, { RefObject } from "react";
-import { Col, Row } from "react-bootstrap";
-import Title from "./Title";
-import "./Facebook.css";
+import React, { RefObject } from "react"
+import { Col, Row } from "react-bootstrap"
+import Title from "./Title"
+import "./Facebook.css"
 
 const Facebook = ({
   fbRefer,
   priceRefer,
 }: {
-  fbRefer: RefObject<HTMLDivElement>;
-  priceRefer: RefObject<HTMLDivElement>;
+  fbRefer: RefObject<HTMLDivElement>
+  priceRefer: RefObject<HTMLDivElement>
 }) => {
   return (
     <>
@@ -27,7 +27,6 @@ const Facebook = ({
             data-testid="fb:page Facebook Social Plugin"
             title="fb:page Facebook Social Plugin"
             frameBorder="0"
-            allowTransparency={true}
             allowFullScreen={true}
             scrolling="no"
             allow="encrypted-media"
@@ -76,16 +75,16 @@ const Facebook = ({
             </div>
             <div className="d-flex flex-row align-items-center gap-4">
               <i className="bi bi-house-door h1"></i>
-              <h3 className="fw-normal">
-                <div>Wizyta domowa (45 min) - 120 zł</div>
+              <div>
+                <h3 className="fw-normal">Wizyta domowa (45 min) - 120 zł</h3>
                 <h5 className="fw-normal">+ ewentualny koszt dojazdu</h5>
-              </h3>
+              </div>
             </div>
           </div>
         </Col>
       </Row>
     </>
-  );
-};
+  )
+}
 
-export default Facebook;
+export default Facebook

@@ -15,7 +15,7 @@ import Footer from "./footer"
 import Header from "./Header"
 import Main from "./Main"
 
-const Layout = ({ children }) => {
+const Layout = () => {
   const refs = {
     workingMethods: React.useRef<HTMLDivElement>(null),
     canIHelpU: React.useRef<HTMLDivElement>(null),
@@ -32,10 +32,6 @@ const Layout = ({ children }) => {
       <Footer />
     </div>
   )
-}
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
 }
 
 export default Layout
