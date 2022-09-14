@@ -1,7 +1,7 @@
-import React, { RefObject } from "react";
-import { Card, Col, Row } from "react-bootstrap";
-import Title from "./Title";
-import "./Contact.css";
+import React, { RefObject } from "react"
+import { Card, Col, Row } from "react-bootstrap"
+import Title from "./Title"
+import "./Contact.css"
 
 const Contact = ({ refer }: { refer: RefObject<HTMLDivElement> }) => {
   return (
@@ -30,16 +30,14 @@ const Contact = ({ refer }: { refer: RefObject<HTMLDivElement> }) => {
             </div>
           </a>
           <a
-            href={`mailto:katarzynanogawica@gmail.com`}
+            href={`mailto:fizjokrej@gmail.com`}
             className="ContactLine text-body text-decoration-none"
           >
             <div className="IconStyle">
               <i className="bi bi-envelope-fill h1"></i>
             </div>
             <div className="align-self-center">
-              <h3 className="fw-normal text-start">
-                katarzynanogawica@gmail.com
-              </h3>
+              <h3 className="fw-normal text-start">fizjokrej@gmail.com</h3>
             </div>
           </a>
         </Col>
@@ -58,7 +56,7 @@ const Contact = ({ refer }: { refer: RefObject<HTMLDivElement> }) => {
         </Col>
       </Row>
     </>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

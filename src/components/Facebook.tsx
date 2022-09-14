@@ -39,30 +39,23 @@ const Facebook = ({
               visibility: "visible",
               maxWidth: "100vw",
             }}
-            className="FBIframe"
+            className="FBIframe d-none d-sm-block"
           ></iframe>
-          {/* <div
-            style={{ width: 500 }}
-            className="fb-page card"
-            data-href="https://www.facebook.com/fizjoterapianogawica/"
-            data-tabs="timeline"
-            data-width="500"
-            data-height="500"
-            data-small-header="true"
-            data-adapt-container-width="true"
-            data-hide-cover="true"
-            data-show-facepile="true"
-            data-lazy="true"
-          >
-            <blockquote
-              cite="https://www.facebook.com/fizjoterapianogawica/"
-              className="fb-xfbml-parse-ignore"
+          <div className="w-100 d-block d-sm-none">
+            <a
+              href={`https://www.facebook.com/fizjoterapianogawica/`}
+              className="ContactLine text-body text-decoration-none"
             >
-              <a href="https://www.facebook.com/fizjoterapianogawica/">
-                Fizjoterapia i Rehabilitacja Katarzyna Nogawica
-              </a>
-            </blockquote>
-          </div> */}
+              <div className="IconStyle">
+                <i className="bi bi-facebook h1"></i>
+              </div>
+              <div className="align-self-center">
+                <h3 className="fw-normal text-start">
+                  Fizjoterapia i Rehabilitacja Katarzyna Nogawica
+                </h3>
+              </div>
+            </a>
+          </div>
         </Col>
         <Col md={12} xl={6} className="d-flex flex-column gap-4">
           <Title refer={priceRefer}>Cennik</Title>
