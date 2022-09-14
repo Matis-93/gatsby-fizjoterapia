@@ -1,0 +1,12 @@
+.Button span {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff") !important;
+}
+
+.Button {
+  box-shadow: 0 0 0 0 !important;
+}
+
+.SmallLogo {
+  height: 2rem;
+  padding-left: 1rem;
+}

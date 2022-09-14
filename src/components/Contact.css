@@ -1,0 +1,26 @@
+.ContactLine {
+  display: flex;
+  height: 5rem;
+  overflow-wrap: anywhere;
+}
+
+.IconStyle {
+  display: flex;
+  align-self: center;
+  padding-right: 2rem;
+}
+
+.ContactSection {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.ContactContainer {
+  margin: 3rem 0 !important;
+  row-gap: 2rem;
+}
+
+.Iframe {
+  min-height: 20rem;
+}

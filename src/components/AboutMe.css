@@ -1,0 +1,19 @@
+.AboutMeImage {
+  height: 27em;
+  width: auto !important;
+  border-top-left-radius: var(--bs-card-inner-border-radius);
+  border-bottom-left-radius: var(--bs-card-inner-border-radius);
+}
+
+.AboutMe {
+  padding: 0 !important;
+  flex-direction: row !important;
+}
+
+.AboutMeRow {
+  margin: 0 !important;
+}
+
+.ImgCol {
+  padding: 0 !important;
+}

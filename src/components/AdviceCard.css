@@ -1,0 +1,19 @@
+.AdviceCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.AdviceCardHeader {
+  margin-bottom: 0.3em !important;
+}
+
+.AdviceContainer {
+  margin: 4rem 0 !important;
+  row-gap: 1rem;
+}
+
+.AdviceImage {
+  margin-top: 1em !important;
+  margin-bottom: 1rem !important;
+}
