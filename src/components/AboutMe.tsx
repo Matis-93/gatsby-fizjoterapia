@@ -23,7 +23,7 @@ const AboutMe = ({ refer }: { refer: RefObject<HTMLDivElement> }) => (
         lg={{ span: 8 }}
         md={{ span: 8 }}
         sm={{ span: 8 }}
-        className="align-self-center h-100"
+        className="align-self-center"
       >
         <Card.Body className="d-flex row p-6">
           <Card.Title
