@@ -33,7 +33,7 @@ const MainCarousel = () => (
       <img
         className="d-block w-100 CarouselImg"
         src={first}
-        alt="First slide"
+        alt="Fizjoterapia - Katarzyna Krej"
       />
       {NormalMask}
       <img
@@ -51,7 +51,7 @@ const MainCarousel = () => (
       <img
         className="d-block w-100 CarouselImg"
         src={second}
-        alt="Second slide"
+        alt="Gabinet stacjonarny"
       />
       {LinearMask}
       <Carousel.Caption>
@@ -63,7 +63,7 @@ const MainCarousel = () => (
       <img
         className="d-block w-100 CarouselImg"
         src={third}
-        alt="Third slide"
+        alt="Terapia manualna, korekcja wad postawy, masaż"
       />
       {LinearMask}
       <Carousel.Caption>

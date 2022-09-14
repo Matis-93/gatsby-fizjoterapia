@@ -17,7 +17,7 @@ const AboutMe = ({ refer }: { refer: RefObject<HTMLDivElement> }) => (
         md={{ span: 4 }}
         sm={{ span: 4 }}
       >
-        <Card.Img src={img} />
+        <Card.Img src={img} alt="Zdjęcie profilowe" />
       </Col>
       <Col
         lg={{ span: 8 }}

@@ -1,13 +1,13 @@
-import React from "react";
-import { Card } from "react-bootstrap";
-import "./AdviceCard.css";
+import React from "react"
+import { Card } from "react-bootstrap"
+import "./AdviceCard.css"
 
 type Props = {
-  title: string;
-  description: string;
-  isReordered?: boolean;
-  img: string;
-};
+  title: string
+  description: string
+  isReordered?: boolean
+  img: string
+}
 
 const AdviceCard = ({ title, description, isReordered, img }: Props) => (
   <div className="row featurette AdviceContainer">
@@ -25,9 +25,9 @@ const AdviceCard = ({ title, description, isReordered, img }: Props) => (
       </Card.Text>
     </div>
     <div className="col-md-5 align-self-center AdviceImage">
-      <Card.Img variant="top" src={img} />
+      <Card.Img variant="top" src={img} alt={title} />
     </div>
   </div>
-);
+)
 
-export default AdviceCard;
+export default AdviceCard
