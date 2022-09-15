@@ -51,7 +51,7 @@ const Facebook = ({
               </div>
               <div className="align-self-center">
                 <h3 className="fw-normal text-start">
-                  Fizjoterapia i Rehabilitacja Katarzyna Nogawica
+                  Fizjoterapia Katarzyna Krej
                 </h3>
               </div>
             </a>

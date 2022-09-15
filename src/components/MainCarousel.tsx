@@ -56,7 +56,6 @@ const MainCarousel = () => (
       {LinearMask}
       <Carousel.Caption>
         <h1>Gabinet stacjonarny</h1>
-        <h5>Studzionka k. Pawłowic</h5>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item className="CarouselItem">
