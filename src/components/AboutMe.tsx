@@ -2,6 +2,7 @@ import React, { RefObject } from "react"
 import { Card, Col, Row } from "react-bootstrap"
 import img from "../images/profilowe.jpg"
 import "./AboutMe.css"
+import config from "../config.json"
 
 const AboutMe = ({ refer }: { refer: RefObject<HTMLDivElement> }) => (
   <Card className="bg-dark text-white AboutMe" ref={refer}>
@@ -30,23 +31,14 @@ const AboutMe = ({ refer }: { refer: RefObject<HTMLDivElement> }) => (
             as="h2"
             className="fw-normal AdviceCardHeader card-header me-auto"
           >
-            Nazywam się Katarzyna Krej i od kilku lat pracuję jako
-            fizjoterapeuta.
+            {config.o_mnie.naglowek}
           </Card.Title>
           <div className="">
             <Card.Text as="h4" className="lead">
-              Już w trakcie studiów pracowałam w zawodzie - tak, aby jak
-              najwcześniej zdobywać doświadczenie. Studia magisterskie z
-              Fizjoterapii na Akademii Wychowania Fizycznego w Katowicach
-              ukończyłam w 2019 roku. Na tym jednak nie poprzestalam. Stale
-              rozwijam się na specjalistycznych kursach, by jeszcze lepiej
-              zrozumieć problemy, z jakimi zgłaszają się do mnie Pacjenci. Swoją
-              działalność specjalizuję w dziedzinie/zakresie osteopatii, którą
-              studiuję na warszawskiej Still Academy of Osteopathy.
+              {config.o_mnie.opis1}
             </Card.Text>
             <Card.Text as="h4" className="lead">
-              Prywatnie jestem miłośniczką dobrego kryminału, zwierząt i
-              wycieczek górskich.
+              {config.o_mnie.opis2}
             </Card.Text>
           </div>
         </Card.Body>

@@ -1,5 +1,4 @@
 .CarouselItem {
-  /* height: 32em; */
   max-height: 100vh;
 }
 
@@ -7,17 +6,9 @@
   content: none;
 }
 
-.CarouselImg {
-  /* max-height: 100vh; */
-}
-
 .Logo {
   top: 50%;
   width: 40%;
-  /* -webkit-filter: drop-shadow(2px 1px 1px rgb(0, 0, 0))
-    drop-shadow(-1px -1px 1px rgb(0, 0, 0));
-  filter: drop-shadow(1px 1px 1px rgb(0, 0, 0))
-    drop-shadow(-1px -1px 0 rgb(0, 0, 0)); */
 }
 
 .LinearMask {

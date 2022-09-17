@@ -2,6 +2,7 @@ import React, { RefObject } from "react"
 import { Card, Col, Row } from "react-bootstrap"
 import Title from "./Title"
 import "./Contact.css"
+import config from "../config.json"
 
 const Contact = ({ refer }: { refer: RefObject<HTMLDivElement> }) => {
   return (
@@ -14,8 +15,10 @@ const Contact = ({ refer }: { refer: RefObject<HTMLDivElement> }) => {
               <i className="bi bi-house-fill h1"></i>
             </div>
             <div>
-              <h3 className="fw-normal text-start">Wodzisławska 37</h3>
-              <h3 className="fw-normal text-start">43-245 Studzionka</h3>
+              <h3 className="fw-normal text-start">{config.kontakt.ulica}</h3>
+              <h3 className="fw-normal text-start">
+                {config.kontakt.miejscowosc}
+              </h3>
             </div>
           </div>
           <a
@@ -26,7 +29,7 @@ const Contact = ({ refer }: { refer: RefObject<HTMLDivElement> }) => {
               <i className="bi bi-telephone-fill h1"></i>
             </div>
             <div className="align-self-center">
-              <h3 className="fw-normal text-start">792 662 270</h3>
+              <h3 className="fw-normal text-start">{config.kontakt.telefon}</h3>
             </div>
           </a>
           <a
@@ -37,7 +40,7 @@ const Contact = ({ refer }: { refer: RefObject<HTMLDivElement> }) => {
               <i className="bi bi-envelope-fill h1"></i>
             </div>
             <div className="align-self-center">
-              <h3 className="fw-normal text-start">fizjokrej@gmail.com</h3>
+              <h3 className="fw-normal text-start">{config.kontakt.email}</h3>
             </div>
           </a>
         </Col>

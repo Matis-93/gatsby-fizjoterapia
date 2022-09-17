@@ -5,6 +5,7 @@ import second from "../images/tlo2.jpg"
 import third from "../images/tlo3.jpg"
 import logo from "../images/logo_duze.png"
 import "./MainCarousel.css"
+import config from "../config.json"
 
 const NormalMask = (
   <div className="mask NormalMask">
@@ -51,22 +52,22 @@ const MainCarousel = () => (
       <img
         className="d-block w-100 CarouselImg"
         src={second}
-        alt="Gabinet stacjonarny"
+        alt={config.karuzela.slajd2}
       />
       {LinearMask}
       <Carousel.Caption>
-        <h1>Gabinet stacjonarny</h1>
+        <h1>{config.karuzela.slajd2}</h1>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item className="CarouselItem">
       <img
         className="d-block w-100 CarouselImg"
         src={third}
-        alt="Terapia manualna, korekcja wad postawy, masaż"
+        alt={config.karuzela.slajd3}
       />
       {LinearMask}
       <Carousel.Caption>
-        <h1>Terapia manualna, korekcja wad postawy, masaż</h1>
+        <h1>{config.karuzela.slajd3}</h1>
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel>

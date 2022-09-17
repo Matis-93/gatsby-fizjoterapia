@@ -2,6 +2,7 @@ import React, { RefObject } from "react"
 import { Col, Row } from "react-bootstrap"
 import Title from "./Title"
 import "./Facebook.css"
+import config from "../config.json"
 
 const Facebook = ({
   fbRefer,
@@ -18,7 +19,7 @@ const Facebook = ({
           xl={6}
           className="d-flex flex-column align-items-center gap-4"
         >
-          <Title refer={fbRefer}>Facebook</Title>
+          <Title refer={fbRefer}>{config.facebook.tytul}</Title>
           <iframe
             id="fbiframe"
             name="f3271f2d256ad88"
@@ -50,27 +51,25 @@ const Facebook = ({
                 <i className="bi bi-facebook h1"></i>
               </div>
               <div className="align-self-center">
-                <h3 className="fw-normal text-start">
-                  Fizjoterapia Katarzyna Krej
+                <h3 className="fw-normal text-start link-dark text-primary">
+                  {config.facebook.nazwa}
                 </h3>
               </div>
             </a>
           </div>
         </Col>
         <Col md={12} xl={6} className="d-flex flex-column gap-4">
-          <Title refer={priceRefer}>Cennik</Title>
+          <Title refer={priceRefer}>{config.cennik.tytul}</Title>
           <div className="d-flex flex-column gap-5 justify-content-center h-100">
             <div className="d-flex flex-row align-items-center gap-4">
               <i className="bi bi-shop h1"></i>
-              <h3 className="fw-normal">
-                Wizyta w gabinecie (45-60 min)- 100 zł
-              </h3>
+              <h3 className="fw-normal">{config.cennik.gabinet}</h3>
             </div>
             <div className="d-flex flex-row align-items-center gap-4">
               <i className="bi bi-house-door h1"></i>
               <div>
-                <h3 className="fw-normal">Wizyta domowa (45 min) - 120 zł</h3>
-                <h5 className="fw-normal">+ ewentualny koszt dojazdu</h5>
+                <h3 className="fw-normal">{config.cennik.dom1}</h3>
+                <h5 className="fw-normal">{config.cennik.dom2}</h5>
               </div>
             </div>
           </div>

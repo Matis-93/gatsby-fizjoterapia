@@ -3,6 +3,7 @@ import RefsObj from "./RefsObject"
 import "./Header.css"
 import React from "react"
 import logo from "../images/logo_male.png"
+import config from "../config.json"
 
 const Header = ({ refs }: { refs: RefsObj }) => {
   const handleScroll = (ref: HTMLDivElement | null) => {
@@ -18,7 +19,7 @@ const Header = ({ refs }: { refs: RefsObj }) => {
       <Navbar
         bg="dark"
         variant="dark"
-        className="fixed-top"
+        className="fixed-top pe-2"
         collapseOnSelect
         expand="md"
       >
@@ -27,7 +28,10 @@ const Header = ({ refs }: { refs: RefsObj }) => {
           className="Button"
         />
         <Navbar.Brand className="p-0 m-0">
-          <a href="/#">
+          <a
+            href="##"
+            onClick={e => window.scrollTo({ top: 0, behavior: "smooth" })}
+          >
             <img src={logo} alt="logo" className="SmallLogo" />
           </a>
         </Navbar.Brand>
@@ -37,43 +41,43 @@ const Header = ({ refs }: { refs: RefsObj }) => {
               onClick={e => handleScroll(refs.workingMethods.current)}
               href="#metody"
             >
-              Metody
+              {config.metody.tytul}
             </Nav.Link>
             <Nav.Link
               href="#w_czym_moge_pomoc"
               onClick={e => handleScroll(refs.canIHelpU.current)}
             >
-              W czym mogę pomóc?
+              {config.w_czym_moge_pomoc.tytul}
             </Nav.Link>
             <Nav.Link
               href="#przygotuj_sie"
               onClick={e => handleScroll(refs.visitAdvice.current)}
             >
-              Przygotuj się
+              {config.przygotuj_sie.tytul}
             </Nav.Link>
             <Nav.Link
               href="#o_mnie"
               onClick={e => handleScroll(refs.aboutMe.current)}
             >
-              O mnie
+              {config.o_mnie.tytul}
             </Nav.Link>
             <Nav.Link
               href="#kontakt"
               onClick={e => handleScroll(refs.contact.current)}
             >
-              Kontakt
+              {config.kontakt.tytul}
             </Nav.Link>
             <Nav.Link
               href="#facebook"
               onClick={e => handleScroll(refs.facebook.current)}
             >
-              Facebook
+              {config.facebook.tytul}
             </Nav.Link>
             <Nav.Link
               href="#cennik"
               onClick={e => handleScroll(refs.price.current)}
             >
-              Cennik
+              {config.cennik.tytul}
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

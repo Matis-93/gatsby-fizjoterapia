@@ -1,0 +1,130 @@
+{
+  "karuzela": {
+    "slajd2": "Gabinet stacjonarny",
+    "slajd3": "Terapia manualna, korekcja wad postawy, masaż"
+  },
+  "metody": {
+    "tytul": "Metody",
+    "elementy": [
+      {
+        "tytul": "Kinesiotaping",
+        "opis": "Metoda polegająca na oklejaniu ciała specjalnymi taśmami. Stosowana zarówno w celu rozluźniania mięśni, jak i stabilizacji stawów.",
+        "nazwa_zdjecia": "tapy"
+      },
+      {
+        "tytul": "Terapia wisceralna",
+        "opis": "Metoda pracy na narządach wewnętrznych, skuteczna w dolegliwościach bólowych kręgosłupa oraz w problemach z układem trawiennym.",
+        "nazwa_zdjecia": "wisceralna"
+      },
+      {
+        "tytul": "Terapia manualna",
+        "opis": "Specjalistyczna metoda pracy ze stawami, więzadłami i mięśniami mająca na celu przywrócenie prawidłowej biomechaniki ciała człowieka.",
+        "nazwa_zdjecia": "manualna"
+      },
+      {
+        "tytul": "Pinoterapia",
+        "opis": "Nieinwazyjna metoda polegająca na stymulowaniu określonych obszarów w ciele człowieka za pomocą dłoni terapeuty lub specjalnych narzędzi.",
+        "nazwa_zdjecia": "pino"
+      },
+      {
+        "tytul": "PNF Proprioceptywne Torowanie Nerwowo Mięśniowe",
+        "opis": "Rodzaj treningu, który może zostać zastosowany zarówno u pacjentów neurologicznych, jak i u sportowców.",
+        "nazwa_zdjecia": "pnf"
+      },
+      {
+        "tytul": "Masaż tkanek głębokich",
+        "opis": "Metoda pracy mająca na celu przywrócenie ruchomości w głębszych warstwach tkanek mięśniowych i powięziowych.",
+        "nazwa_zdjecia": "tkanek"
+      },
+      {
+        "tytul": "Masaż",
+        "nazwa_zdjecia": "masaz"
+      }
+    ]
+  },
+  "w_czym_moge_pomoc": {
+    "tytul": "W czym mogę pomóc?",
+    "elementy": [
+      {
+        "tytul": "Wady postawy u dzieci powyżej 6 roku życia",
+        "elementy": ["Skolioza", "Wady stóp", "Asymetrie"]
+      },
+      {
+        "tytul": "Rehabilitacja neurologiczna",
+        "elementy": ["Stany po udarach", "SM", "Niedowłady"]
+      },
+      {
+        "tytul": "Fizjoterapia ortopedyczna",
+        "elementy": [
+          "Drętwienia i mrowienia kończyn",
+          "Ograniczenia ruchomości",
+          "Bóle głowy i migreny",
+          "Stany po złamaniach i skręceniach",
+          "Dolegliwości bólowe kręgosłupa (rwy kulszowe, dyskopatie, uwięźnięcia nerwów)",
+          "Dolegliwości stawów obwodowych (bark, łokieć, nadgarstek, biodro, kolano, stopa)"
+        ]
+      },
+      {
+        "tytul": "Fizjoterapia po operacjach",
+        "elementy": [
+          "Endoprotezoplastyki",
+          "Rekonstrukcje więzadeł kolanowych",
+          "Stabilizacje",
+          "Artroskopie"
+        ]
+      },
+      {
+        "tytul": "Terapia wisceralna",
+        "elementy": [
+          "Choroba refluksowa",
+          "Uczucie ciężkości, bóle brzucha",
+          "Choroba wrzodowa",
+          "Problemy z trawieniem"
+        ]
+      }
+    ]
+  },
+  "przygotuj_sie": {
+    "tytul": "Przygotuj się",
+    "elementy": [
+      {
+        "tytul": "Strój",
+        "opis": "Ze względu na komfort, w trakcie zabiegu najlepiej jest mieć na sobie wygodny strój. Zalecam zabrać ze sobą również krótkie spodenki. Często zdarza się, że leczenie odbywa się także w miejscach oddalonych od źródła bólu. Dlatego na przykład przy dolegliwościach kręgosłupa prawdopodobnie zbadam również Twoje biodra czy kolana. Aby przebiegło to bez zbędnego skrępowania, warto ubrać się wygodnie.",
+        "nazwa_zdjecia": "stroj"
+      },
+      {
+        "tytul": "Badania",
+        "opis": "Jeśli posiadasz wyniki badań lub opisy dolegliwości - weź je ze sobą.",
+        "nazwa_zdjecia": "badania"
+      },
+      {
+        "tytul": "Analiza",
+        "opis": "Przed wizytą przeanalizuj raz jeszcze, co dokładnie Cię boli. Mimo, że zgłaszasz się do mnie z jednym bólem, to często zdarza się, że borykasz się z większą liczbą dolegliwości (na przykład oprócz barku boli Cię również biodro i czasami stopa). Z doświadczenia wiem, że ma to kluczowe znaczenie w terapii. Warto również zaobserwować, co nasila Twoje dolegliwości oraz jak często one występują.",
+        "nazwa_zdjecia": "analiza"
+      }
+    ]
+  },
+  "o_mnie": {
+    "tytul": "O mnie",
+    "naglowek": "Nazywam się Katarzyna Krej i od kilku lat pracuję jako fizjoterapeuta.",
+    "opis1": "Już w trakcie studiów pracowałam w zawodzie - tak, aby jak najwcześniej zdobywać doświadczenie. Studia magisterskie z Fizjoterapii na Akademii Wychowania Fizycznego w Katowicach ukończyłam w 2019 roku. Na tym jednak nie poprzestalam. Stale rozwijam się na specjalistycznych kursach, by jeszcze lepiej zrozumieć problemy, z jakimi zgłaszają się do mnie Pacjenci. Swoją działalność specjalizuję w dziedzinie/zakresie osteopatii, którą studiuję na warszawskiej Still Academy of Osteopathy.",
+    "opis2": "Prywatnie jestem miłośniczką dobrego kryminału, zwierząt i wycieczek górskich."
+  },
+  "kontakt": {
+    "tytul": "Kontakt",
+    "ulica": "Wodzisławska 37",
+    "miejscowosc": "43-245 Studzionka",
+    "telefon": "792 662 270",
+    "email": "fizjokrej@gmail.com"
+  },
+  "facebook": {
+    "tytul": "Facebook",
+    "nazwa": "Fizjoterapia Katarzyna Krej"
+  },
+  "cennik": {
+    "tytul": "Cennik",
+    "gabinet": "Wizyta w gabinecie (45-60 min)- 100 zł",
+    "dom1": "Wizyta domowa (45 min) - 120 zł",
+    "dom2": "+ ewentualny koszt dojazdu"
+  }
+}
