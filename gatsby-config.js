@@ -30,5 +30,7 @@ module.exports = {
         icon: `src/images/logo_male.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-robots-txt`,
   ],
 }
