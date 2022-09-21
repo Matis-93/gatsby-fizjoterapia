@@ -28,6 +28,7 @@ const WorkingMethods = ({ refer }: { refer: RefObject<HTMLDivElement> }) => {
       <Row className="WorkingMethods">
         {config.metody.elementy.map(el => (
           <WorkingMethodsCard
+            key={el.tytul}
             img={images[el.nazwa_zdjecia]}
             title={el.tytul}
             desc={el.opis}

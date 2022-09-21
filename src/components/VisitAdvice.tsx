@@ -1,4 +1,4 @@
-import React, { RefObject } from "react"
+import React, { Fragment, RefObject } from "react"
 import AdviceCard from "./AdviceCard"
 import stroj from "../images/VisitAdvice/stroj.jpg"
 import badania from "../images/VisitAdvice/badania.jpg"
@@ -17,7 +17,7 @@ const VisitAdvice = ({ refer }: { refer: RefObject<HTMLDivElement> }) => {
     <>
       <Title refer={refer}>{config.przygotuj_sie.tytul}</Title>
       {config.przygotuj_sie.elementy.map((el, index) => (
-        <>
+        <Fragment key={el.tytul}>
           <AdviceCard
             img={images[el.nazwa_zdjecia]}
             title={el.tytul}
@@ -27,7 +27,7 @@ const VisitAdvice = ({ refer }: { refer: RefObject<HTMLDivElement> }) => {
           {index !== config.przygotuj_sie.elementy.length - 1 && (
             <SectionLine />
           )}
-        </>
+        </Fragment>
       ))}
     </>
   )

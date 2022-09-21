@@ -6,11 +6,7 @@
  */
 
 import * as React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
-
 import "./app.css"
-import { Row } from "react-bootstrap"
 import Footer from "./footer"
 import Header from "./Header"
 import Main from "./Main"

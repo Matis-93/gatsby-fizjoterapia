@@ -8,7 +8,7 @@ const CanIHelpU = ({ refer }: { refer: RefObject<HTMLDivElement> }) => (
     <Title refer={refer}>{config.w_czym_moge_pomoc.tytul}</Title>
     <div className="row WorkingMethods">
       {config.w_czym_moge_pomoc.elementy.map(el => (
-        <CanIHelpUCard title={el.tytul} points={el.elementy} />
+        <CanIHelpUCard key={el.tytul} title={el.tytul} points={el.elementy} />
       ))}
     </div>
   </>
