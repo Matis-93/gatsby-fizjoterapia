@@ -37,6 +37,7 @@ function Seo() {
       <meta name="twitter:creator" content={site.siteMetadata?.author || ``} />
       <meta name="twitter:title" content={defaultTitle} />
       <meta name="twitter:description" content={metaDescription} />
+      <link rel="canonical" href=" https://www.fizjokrej.pl" />
     </>
   )
 }
