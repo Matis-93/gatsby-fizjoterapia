@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `Fizjoterapia - Katarzyna Krej`,
-    description: `Szeroki zakres usług fizjoterapii Katarzyny Krej w Studzionce.`,
+    description: `Fizjoterapia Katarzyny Krej w Studzionce | fizjoterapia ortopedyczna • fizjoterapia pooperacyjna • fizjoterapia neurologiczna • korekcja wad postawy`,
     author: `Mateusz Stalmach`,
     siteUrl: `https://fizjokrej.pl/`,
+    keywords: `fizjoterapia ortopedyczna, fizjoterapia pooperacyjna, fizjoterapia neurologiczna, korekcja wad postawy, fizjoterapia pszczyna, fizjoterapia pawłowice, fizjoterapia studzionka`,
   },
   plugins: [
     `gatsby-plugin-image`,

@@ -17,6 +17,7 @@ function Seo() {
             title
             description
             author
+            keywords
           }
         }
       }
@@ -25,11 +26,15 @@ function Seo() {
 
   const metaDescription = site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
+  const metaKeywords = site.siteMetadata.keywords
+  const metaAuhtor = site.siteMetadata.author
 
   return (
     <>
       <title>{defaultTitle}</title>
       <meta name="description" content={metaDescription} />
+      <meta name="keywords" content={metaKeywords} />
+      <meta name="author" content={metaAuhtor} />
       <meta property="og:title" content={defaultTitle} />
       <meta property="og:description" content={metaDescription} />
       <meta property="og:type" content="website" />
